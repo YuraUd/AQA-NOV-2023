@@ -60,6 +60,7 @@ public class Main {
         car.goTo("Dnipro", "Chernihiv");
         car.goTo("Kyiv", "Kharkiv", "Poltava");
         car.goTo("Odessa", "Kyiv", "Dnipro", "food");
+        car.goTo("Odessa", "Kyiv", "Dnipro", "food","Kyiv","Odessa");
 
     }
 

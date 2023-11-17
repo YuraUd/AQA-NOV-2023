@@ -41,4 +41,9 @@ public class Car implements ITurnable {
         System.out.println("This vehicle goes to " + city + " from " + fromCity +
                 " passing through " + passingThrough + " with " + withCargo + " cargo");
     }
-}
+    public void goTo(String city, String fromCity, String passingThrough, String withCargo, String backCity, String backCity2) {
+        System.out.println("This vehicle goes to " + city + " from " + fromCity +
+                " passing through " + passingThrough + " with " + withCargo + " cargo"+ " return passing through "+ passingThrough+" from "+ backCity + " to " + backCity2);
+    }
+
+    }
